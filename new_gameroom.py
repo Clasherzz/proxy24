@@ -7,7 +7,7 @@ cred = credentials.Certificate("./cligame-firebase-adminsdk-oju86-c97312a6fb.jso
 firebase_admin.initialize_app(cred)
 send_gemini_requests ()
 # Initialize Firestore
-db = firestore.client()
+git add origin 
 def start_game(question_count,topic,player1):
     topic = "Mathematics"  # Set your desired topic
     # questions = generate_questions()  # Generate questions
